@@ -49,7 +49,6 @@ python3-pyparsing
 python3-redis
 python3-setuptools
 python3-six
-python3-impacket
 redis-server
 redis-tools
 rsync
