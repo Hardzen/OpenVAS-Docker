@@ -10,6 +10,7 @@ ca-certificates
 cmake
 curl
 gcc
+git
 gcc-mingw-w64
 geoip-database
 gnutls-bin
