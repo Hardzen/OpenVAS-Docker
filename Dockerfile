@@ -16,6 +16,13 @@ ENV gvm_libs_version="v20.8.1" \
 RUN echo "Starting Build..." && mkdir /build
 
     #
+    # Install Impacket for WMI
+
+RUN git clone https://github.com/SecureAuthCorp/impacket.git \
+    cd impacket \
+    pip3 install .
+
+    #
     # install libraries module for the Greenbone Vulnerability Management Solution
     #
     
