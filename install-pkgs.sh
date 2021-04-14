@@ -40,10 +40,10 @@ python3-cffi
 python3-cryptography
 python3-defusedxml
 python3-lxml
+python3-dev
 python3-packaging
 python3-paramiko
 python3-pip
-python3-psutil
 python3-pycparser
 python3-pyparsing
 python3-redis
