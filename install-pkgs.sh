@@ -38,7 +38,6 @@ openssh-client
 perl-base
 python3-bcrypt
 python3-cffi
-python3-cryptography
 python3-defusedxml
 python3-lxml
 python3-dev
