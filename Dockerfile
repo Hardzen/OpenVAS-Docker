@@ -13,14 +13,17 @@ ENV gvm_libs_version="v20.8.1" \
     open_scanner_protocol_daemon="v20.8.1" \
     ospd_openvas="v20.8.1"
 
-RUN echo "Starting Build..." && mkdir /build
 
     #
     # Install Impacket for WMI
+    #
 
-RUN git clone https://github.com/SecureAuthCorp/impacket.git \
-    cd impacket \
-    pip3 install .
+RUN git clone https://github.com/SecureAuthCorp/impacket.git && \
+    cd impacket && \
+    pip3 install . && \
+    cd ..
+
+RUN echo "Starting Build..." && mkdir /build
 
     #
     # install libraries module for the Greenbone Vulnerability Management Solution
